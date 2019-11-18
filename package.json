@@ -1,0 +1,29 @@
+{
+ "name": "Proxy",
+ "version": "1.0.0",
+ "description": "Enables access to 3rd party services",
+ "main": "proxy.js",
+ "scripts": {
+   "start:proxy": "node proxy.js",
+   "watch:proxy": "nodemon --watch index.html --watch proxy.js --delay 1 --exec npm run start:proxy"
+ },
+ "keywords": [],
+ "author": "obn",
+ "repository": {
+   "type": "git",
+   "url": "..."
+ },
+ "license": "ISC",
+ "dependencies": {
+   "body-parser": "^1.19.0",
+   "bootstrap": "^4.3.1",
+   "cors": "^2.8.5",
+   "express": "^4.17.1",
+   "jquery": "^3.4.1",
+   "serve-favicon": "^2.5.0"
+ },
+ "devDependencies": {
+   "nodemon": "^1.19.1"
+ }
+}
+
